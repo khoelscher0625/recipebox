@@ -1,3 +1,9 @@
-<h1><%= @recipes.inspect %></h1>
-
+<% @recipes.each do |recipe| %>
+  <div class="booyah-box col-10 offset-1">
+    <h1><%= recipe.name %></h1><br />
+    <h3><%= recipe.course %></h3>
+    <i><%= recipe.servings %></i>
+    <p><%= recipe.memory %></p>
+  </div>
+<% end %>
 
