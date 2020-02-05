@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 @import "bootstrap";
 
 .booyah-box {
@@ -12,7 +15,32 @@
   padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1,  {
   margin: 0;
   padding: 0;
+  font-family: 'Acme', sans-serif;
+}
+
+h2, h3, h4, h5, h6, i, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+
+}
+
+body {
+  background: image_url('morocco.png');
+}
+
+
+.navbar {
+  background: image_url('spikes.png');
+  box-shadow: 3px 3px 3px 3px #ccc;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  color: #07A0A5 !important;
+  font-family: 'Sigmar One', cursive;
 }
