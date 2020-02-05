@@ -70,3 +70,4 @@ gem 'bootstrap', '~> 4.4.1'
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+gem 'simple_form'
