@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Full Stack application that collects recipe ideas from the memories of my friends and family.  
 
-Things you may want to cover:
+Add your own memory. https://recipebox-kathryn-hoelscher.herokuapp.com
 
-* Ruby version
+![Image of Recipebox](/photos/Recipebox.png)
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
